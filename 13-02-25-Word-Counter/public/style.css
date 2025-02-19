@@ -1,0 +1,55 @@
+body {
+  align-content: center;
+  background-color: rgb(47, 49, 49);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Form grubunu hizalama */
+#myForm {
+  display: flex; /* Flexbox kullanımı */
+  align-items: center; /* Elemanları dikeyde ortalar */
+  gap: 10px; /* Elemanlar arası boşluk */
+}
+
+/* Textarea stili */
+#myTextarea {
+  width: 300px;
+  height: 100px;
+  background-color: #f5f5f5; /* Hafif gri arka plan rengi */
+  color: #333; /* Koyu gri yazı rengi */
+  border: 1px solid #ccc; /* Açık gri kenarlık */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Buton stili */
+#myButton {
+  color: white;
+  background-color: rgb(100, 100, 100); /* Orta tonlu gri arka plan rengi */
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: 'Times New Roman', Times, serif;
+}
+#myClearButton {
+  color: white;
+  background-color: rgb(100, 100, 100); /* Orta tonlu gri arka plan rengi */
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: 'Times New Roman', Times, serif;
+}
+#myButton:hover {
+  background-color: rgb(150, 150, 150); /* Daha açık gri arka plan rengi */
+  transform: scale(1.05);
+}
+#myClearButton:hover {
+  background-color: rgb(150, 150, 150); /* Daha açık gri arka plan rengi */
+  transform: scale(1.05);
+}
+
